@@ -1,6 +1,6 @@
 {% set name = "perl-b-hooks-endofscope" %}
-{% set version = "0.26" %}
-{% set sha256 = "39df2f8c007a754672075f95b90797baebe97ada6d944b197a6352709cb30671" %}
+{% set version = "0.28" %}
+{% set sha256 = "edac77a17fc36620c8324cc194ce1fad2f02e9fcbe72d08ad0b2c47f0c7fd8ef" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true   # [win]
+  skip: true  # [win]
   number: 0
   run_exports:
     weak:
